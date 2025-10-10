@@ -1,0 +1,55 @@
+Tema da Oficina
+Rotas para o Futuro: Empreendendo com Tecnologia e Inteligência Artificial
+Como transformar ideias em negócios digitais, usando desenvolvimento web, banco de dados em nuvem e IA para criação de conteúdo e fortalecimento de marca.
+
+Objetivo Geral
+Capacitar os alunos a criarem uma aplicação web simples de apresentação de negócio, integrando banco de dados em nuvem e explorando como ferramentas de Inteligência Artificial podem apoiar a geração de valor, desde o desenvolvimento até a divulgação em redes sociais.
+
+Roteiro (6h - Teoria + Prática)
+1. Abertura e Contextualização (30 min)
+Apresentação do tema e objetivo da oficina.
+Reflexão: como a TI pode ser usada para criar negócios inovadores em Itabuna e região.
+Exemplos reais de startups que começaram com ideias simples + tecnologia acessível.
+
+2. Empreendedorismo em TI e o Papel da IA (1h)
+Empreender em TI: identificar problemas e propor soluções digitais.
+Inteligência Artificial como parceira:
+Ideação (brainstorming de ideias de negócio com IA).
+Geração de conteúdo para redes sociais.
+Suporte no design de logotipos, sites e identidade visual.
+Atividade prática curta: usar IA (ex.: ChatGPT, Canva com IA, DALL·E, etc.) para gerar nome e logo de um negócio fictício.
+
+3. Desenvolvimento Web – Primeiros Passos (1h30)
+HTML + CSS + JavaScript: criar um site simples de apresentação do negócio.
+Estrutura do site:
+Página inicial com apresentação do negócio.
+Seção de serviços/produtos.
+Formulário de contato com captura de dados (JS).
+Publicação: usar GitHub Pages para colocar o site no ar.
+
+4. Banco de Dados em Nuvem – MongoDB Atlas (1h30)
+Conceito de banco de dados NoSQL e uso do MongoDB.
+Criar uma base no MongoDB Atlas.
+Conectar o formulário do site ao banco de dados (armazenando os contatos e feedbacks).
+Teste prático: enviar dados pelo site e consultar no MongoDB.
+
+5. IA para Fortalecimento do Negócio Digital (1h)
+Como usar IA para gerar:
+Posts e legendas para redes sociais.
+Pequenos textos de marketing para o site.
+Estratégias de divulgação segmentada.
+Atividade prática curta: os grupos vão usar IA para gerar um kit inicial de posts para Instagram/TikTok do negócio criado.
+
+6. Conclusão e Próximos Passos (30 min)
+Apresentação rápida dos projetos pelos grupos.
+Reflexão: quais competências tecnológicas e empreendedoras foram desenvolvidas.
+
+Próximos desafios:
+Evoluir o site para um app mais robusto.
+Incluir sistemas de pagamento online.
+Usar mais IA para análise de dados e personalização de serviços.
+
+👉 No fim, cada grupo terá criado:
+Um site funcional publicado no GitHub Pages.
+Um banco MongoDB Atlas com dados armazenados.
+Um kit de identidade e conteúdo inicial (nome, logo, posts para redes sociais) criado com IA.
