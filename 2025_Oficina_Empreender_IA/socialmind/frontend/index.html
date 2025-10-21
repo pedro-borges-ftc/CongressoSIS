@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SocialMind</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Logo SocialMind" class="logo" />
+    <h1>SocialMind</h1>
+    <p class="slogan">Crie, agende e potencialize suas ideias com o poder da IA.</p>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Nova Postagem</h2>
+      <form id="postForm">
+        <input type="text" id="titulo" placeholder="Título da postagem" required />
+        <textarea id="conteudo" placeholder="Escreva seu conteúdo..." required></textarea>
+        <input type="text" id="hashtags" placeholder="#hashtags separadas por espaço" />
+        <button type="submit">Salvar</button>
+      </form>
+    </section>
+
+    <section class="posts-section">
+      <h2>Minhas Postagens</h2>
+      <ul id="postList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SocialMind • Desenvolvido na Oficina de Sistemas Web</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

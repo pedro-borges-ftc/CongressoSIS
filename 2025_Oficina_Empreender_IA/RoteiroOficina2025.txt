@@ -1,0 +1,80 @@
+Tema da Oficina
+Rotas para o Futuro: Empreendendo com Tecnologia e Inteligência Artificial
+Como transformar ideias em negócios digitais, usando desenvolvimento web, banco de dados em nuvem e IA.
+
+Objetivo Geral
+Capacitar os alunos a criarem uma aplicação web simples, integrando banco de dados em nuvem e explorando como ferramentas de Inteligência Artificial.
+CASE: Desenvolver, integrando IA, um sistema web mínimo viável para gestão de mídias sociais, publicável no GitHub Pages e com persistência de dados em MongoDB Atlas; foco em geração de conteúdo com IAs.
+
+Entregáveis
+• Site funcional (HTML/CSS/JS) publicado no GitHub Pages.
+• Integração básica com MongoDB Atlas (armazenamento de posts/agendas/contatos).
+• Conteúdo inicial gerado por IA (textos, sugestões de posts e descrições).
+
+Recursos Recomendados
+• GitHub Docs — Pages and basic git workflow
+• MongoDB Atlas — Quickstart
+• MDN Web Docs — HTML/CSS/JS
+• Stripe Docs — Accepting payments
+• OpenAI / ChatGPT docs — prompts and best practices
+• Gerador de imagem por IA online grátis (https://www.canva.com/pt_br/gerador-imagem-ia/)
+
+Roteiro
+1. Abertura e Contextualização (30 min)
+• Apresentação do tema e objetivo da oficina.
+• Reflexão: como a TI pode ser usada para criar negócios inovadores em Itabuna e região.
+• Exemplos reais de startups que começaram com ideias simples + tecnologia acessível.
+• Empreender em TI: identificar problemas e propor soluções digitais.
+Atividade prática curta: usar IA (ex.: ChatGPT, Canva com IA, DALL·E, etc.) para gerar nome, slogan, 1 parágrafo descritivo e lista de features de um negócio fictício.
+Prompt sugerido ao ChatGPT: "Crie o pitch e 3 funcionalidades essenciais para um Gestor de Mídia Social minimalista que possa ser monetizado."
+Objetivo: escolher nicho e definir MVP (ex: gestor de calendário de posts, biblioteca de conteúdos e agendamento simples).
+Prompt para ideação: "Sugira 5 nomes e um pitch curto para um Gestor de Mídia Social focado em microempreendedores."
+
+2. Estruturação HTML/CSS e GitHub (40 min)
+• Criar repositório no GitHub e preparar arquivos: index.html, style.css, script.js.
+• Estrutura mínima sugerida (index.html): header, seção 'Criar post', lista de posts e footer.
+• Estilo: layout limpo, responsivo; usar CSS simples. 
+Publicação: Subir versão inicial ao GitHub.
+Atividade prática curta: usar GitHub Pages para colocar o site no ar.
+
+3. Desenvolvimento Front-end Web – HTML + CSS + JavaScript (30 min)
+• Implementar captura do formulário, renderização de lista e remoção de posts.
+• Fazer persistência inicial com LocalStorage.
+• Entregável: sistema funcional no navegador.
+Prompt IA: "Crie um script.js que capture o form, salve em localStorage e renderize os posts com botão de remover."
+
+4. Banco de Dados em Nuvem – MongoDB Atlas (40 min)
+• Conceito de banco de dados NoSQL e uso do MongoDB.
+• Criar cluster no MongoDB Atlas (plano gratuito).
+• Criar Database e Collection (ex: 'socialmanager', collection 'posts').
+• Conectar o formulário do site ao banco de dados (armazenando os contatos e feedbacks).
+• Implementar um backend mínimo (Node.js + Express + MongoDB driver / mongoose) para receber POST/GET.
+• IA pode gerar o código do backend e instruções para deploy em Replit/Render/Heroku.
+Teste prático: enviar dados pelo site e consultar no MongoDB.
+Prompt para código: "Escreva um endpoint Node.js Express que insira um documento na collection 'posts' do MongoDB Atlas."
+
+5. IA para Fortalecimento do Negócio Digital (1h)
+Como usar IA para gerar:
+    • Posts e legendas para redes sociais.
+    • Calendários de publicação dos posts, descrições, hashtags, variações de títulos e CTAs.
+    • Estratégias de divulgação segmentada.
+Atividade prática curta: os grupos vão usar IA para gerar um kit inicial de posts para Instagram/TikTok do negócio criado.
+Prompt para posts: "Crie 10 variações de legendas para Instagram sobre gestão de redes sociais para padarias locais."
+Exemplo de prompt: "Gere 10 ideias de posts para um gestor de mídia social focado em pequenos negócios locais."
+
+6. Conclusão e Próximos Passos (20 min)
+Apresentação rápida dos projetos pelos grupos:
+    • Cada grupo demonstra o que implementou (2 min).
+    • Checklist sugerido: autenticação, pagamentos (Stripe), deploy de backend, analytics e otimização SEO.
+    • Recursos adicionais: links para documentação do GitHub Pages, MongoDB Atlas, Stripe e guias de IA.
+Reflexão: quais competências tecnológicas e empreendedoras foram desenvolvidas.
+
+Próximos desafios:
+Evoluir o site para um app mais robusto.
+Incluir sistemas de pagamento online.
+Usar mais IA para análise de dados e personalização de serviços.
+
+👉 No fim, cada grupo terá criado:
+Um site funcional publicado no GitHub Pages.
+Um banco MongoDB Atlas com dados armazenados.
+Um kit de identidade e conteúdo inicial (nome, logo, posts para redes sociais) criado com IA.
