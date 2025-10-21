@@ -36,6 +36,7 @@ Prompt para ideação: "Sugira 5 nomes e um pitch curto para um Gestor de Mídia
 • Estilo: layout limpo, responsivo; usar CSS simples. 
 Publicação: Subir versão inicial ao GitHub.
 Atividade prática curta: usar GitHub Pages para colocar o site no ar.
+https://pedro-borges-ftc.github.io/CongressoSIS/2025_Oficina_Empreender_IA/socialmind/frontend/
 
 3. Desenvolvimento Front-end Web – HTML + CSS + JavaScript (30 min)
 • Implementar captura do formulário, renderização de lista e remoção de posts.

@@ -72,3 +72,26 @@ ul {
   padding: 1rem;
   border-radius: 6px;
 }
+
+.ai-section {
+  background: var(--card);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 10px var(--accent);
+  text-align: center;
+}
+
+.ai-section input {
+  width: 80%;
+}
+
+.resultado-ia {
+  margin-top: 1rem;
+  background: #222;
+  padding: 1rem;
+  border-radius: 8px;
+  font-style: italic;
+}
