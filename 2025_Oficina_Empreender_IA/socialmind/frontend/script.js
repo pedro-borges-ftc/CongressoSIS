@@ -1,5 +1,6 @@
 const form = document.getElementById("postForm");
 const postList = document.getElementById("postList");
+const API_URL = "https://socialmind-backend.vercel.app/api/posts";
 
 // Temporariamente, os dados ficam no localStorage
 let posts = JSON.parse(localStorage.getItem("posts")) || [];

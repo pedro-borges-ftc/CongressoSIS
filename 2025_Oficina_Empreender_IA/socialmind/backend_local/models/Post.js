@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const postSchema = new mongoose.Schema({
   titulo: { type: String, required: true },
@@ -7,4 +7,4 @@ const postSchema = new mongoose.Schema({
   dataCriacao: { type: Date, default: Date.now }
 });
 
-export default mongoose.models.Post || mongoose.model("Post", postSchema);
+module.exports = mongoose.model("Post", postSchema);
