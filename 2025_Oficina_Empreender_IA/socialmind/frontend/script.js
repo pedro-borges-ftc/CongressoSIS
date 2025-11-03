@@ -70,7 +70,7 @@ form.addEventListener("submit", salvarPost);
 carregarPosts();
 
 // --- IA Simulada (mantida igual) ---
-const btnGerar = document.getElementById("btnGerar");
+/*const btnGerar = document.getElementById("btnGerar");
 const temaInput = document.getElementById("tema");
 const resultadoIA = document.getElementById("resultadoIA");
 
@@ -109,5 +109,51 @@ btnGerar.addEventListener("click", () => {
   document.getElementById("titulo").value = `Post sobre ${tema}`;
   document.getElementById("conteudo").value = ideia.texto;
   document.getElementById("hashtags").value = ideia.hashtags;
-});
+});*/
 // --- Fim da IA Simulada ---
+
+// --- Código Melhorado para Simulação da IA ---
+const btnGenerate = document.getElementById("btnGenerate");
+btnGenerate.addEventListener("click", () => {
+  const topic = document.getElementById("tema").value;
+  const response = fakeAI(topic);
+
+  document.getElementById("resultadoIA").innerHTML =
+    `<p>${response.post}</p><br><strong>${response.hashtags}</strong>`;
+    
+  document.getElementById("titulo").value = `Post sobre ${topic}`;
+  document.getElementById("conteudo").value = response.post;
+  document.getElementById("hashtags").value = response.hashtags;
+});
+
+function fakeAI(contentIdea) {
+  const topic = contentIdea.trim();
+
+  // Palavras-chave extraídas do tema
+  const keywords = topic.split(" ").slice(0, 4);
+
+  // Modelos de resposta
+  const templates = [
+    `Você já parou para pensar sobre *${topic}*? Esse tema vem ganhando destaque e pode ser o diferencial para quem deseja evoluir. Explore novas perspectivas e transforme conhecimento em ação.`,
+    `O mundo está mudando rápido, e *${topic}* é uma das áreas que mais tem se destacado. Entenda suas oportunidades e prepare-se para o futuro adquirindo novas habilidades e uma visão estratégica.`,
+    `Investir tempo para entender *${topic}* pode abrir portas incríveis. Aproveite para aprender mais, aplicar na prática e compartilhar com sua rede.`,
+    `Uma das discussões mais importantes atualmente é sobre *${topic}*. Se você quer se destacar, comece agora a explorar ideias, criar projetos e buscar inovação.`,
+    `Independentemente da sua área, *${topic}* pode trazer insights poderosos para sua trajetória. Continue estudando, experimentando e compartilhando suas descobertas.`
+  ];
+
+  // Hashtags dinâmicas
+  const hashtagsBase = [
+    "#Inovação", "#Tecnologia", "#Aprendizado", "#Produtividade", 
+    "#Dicas", "#Tendências", "#Desenvolvimento", "#Estratégia"
+  ];
+
+  const hashtagsTopic = keywords.map(k => `#${k.replace(/[^\w]/g,'')}`);
+
+  const text = templates[Math.floor(Math.random() * templates.length)];
+
+  return {
+    post: text,
+    hashtags: hashtagsTopic.concat(hashtagsBase.slice(0, 3)).join(" ")
+  };
+}
+// --- Fim da Melhoria para a IA Simulada ---
